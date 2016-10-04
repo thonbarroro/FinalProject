@@ -19,10 +19,15 @@ public class OnTouchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ontouch_activity);
         final EditText tx = (EditText) findViewById(R.id.text_x);
+        tx.setKeyListener(null);
         final EditText ty = (EditText) findViewById(R.id.text_y);
+        ty.setKeyListener(null);
         final EditText tDiff = (EditText) findViewById(R.id.diff);
+        tDiff.setKeyListener(null);
         final EditText tQuad = (EditText) findViewById(R.id.quadrant);
+        tQuad.setKeyListener(null);
         final EditText tMotion = (EditText) findViewById(R.id.motion);
+        tMotion.setKeyListener(null);
         imageLogo = (ImageView) findViewById(R.id.logo);
 
         imageLogo.setOnTouchListener(new View.OnTouchListener() {
