@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (pword.equals(savePassword1)|pword.equals(savePassword)) {
                     Toast.makeText(MainActivity.this, uname + " has logged in. \n Password: " + pword, Toast.LENGTH_LONG).show();
-                    Intent intent = new Intent(MainActivity.this, New.class);
+                    Intent intent = new Intent(MainActivity.this, OnTouchActivity.class);
                     startActivity(intent);
                 }
                 else{
