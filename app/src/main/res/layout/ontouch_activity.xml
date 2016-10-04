@@ -13,12 +13,12 @@
         android:layout_marginTop="40dp"/>
 
     <TextView
-        android:text="X"
+        android:text="X1, Y1"
         android:textSize="20dp"
-        android:layout_width="25dp"
+        android:layout_width="60dp"
         android:layout_height="25dp"
         android:layout_marginLeft="54dp"
-        android:layout_marginStart="54dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
         android:id="@+id/textView"
         android:layout_below="@+id/logo"
@@ -26,12 +26,12 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="Y"
+        android:text="X2, Y2"
         android:textSize="20dp"
-        android:layout_width="25dp"
+        android:layout_width="60dp"
         android:layout_height="25dp"
         android:layout_marginLeft="54dp"
-        android:layout_marginStart="54dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="65dp"
         android:id="@+id/textView2"
         android:layout_below="@+id/logo"
