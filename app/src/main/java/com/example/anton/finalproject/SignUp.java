@@ -109,7 +109,11 @@ public class SignUp extends AppCompatActivity {
     }
 
 
+    @Override
+    protected void onPause(){
+        super.onPause();
+        finish();
 
-
+    }
 
 }
